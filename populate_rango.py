@@ -33,6 +33,9 @@ def populate():
          'url': 'http://flask.pocoo.org'}
     ]
 
+    # TODO: create data for likes and views for every category (Python, ...)
+    # Then append it to cats dict then maybe alter the add cat method?
+
     cats = {
         'Python': {'pages': python_pages},
         'Django': {'pages': django_pages},
